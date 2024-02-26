@@ -1,7 +1,9 @@
 const express = require("express");
 const knex = require("knex")(require("./knexfile").development);
+const cors = require("cors");
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 app.get("/webinars", async (req, res) => {
