@@ -1,14 +1,18 @@
-const http = require("http");
+const express = require("express");
+const knex = require("knex")(require("./knexfile").development);
 
-const hostname = "127.0.0.1";
-const port = 3000;
+const app = express();
+app.use(express.json());
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader("Content-Type", "text/plain");
-  res.end("Hello, World!\n");
+app.get("/webinars", async (req, res) => {
+  const webinars = await knex("webinars").select("*");
+  res.json(webinars);
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+app.post("/webinars", async (req, res) => {
+  const webinar = req.body;
+  await knex("webinars").insert(webinar);
+  res.json({ message: "Webinar added!" });
 });
+
+app.listen(3000, () => console.log("Server listening on port 3000"));
