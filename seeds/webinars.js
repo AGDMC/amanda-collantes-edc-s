@@ -28,7 +28,7 @@ exports.seed = async function (knex) {
       time: "11:30 AM EST",
       title: "Engaging Students with Interactive Lectures",
       description:
-        "Discover practical strategies for managing your classroom environment to enhance student learning and engagement.",
+        "Learn how to make your lectures come alive and captivate students with interactive engagement strategies",
       guestSpeaker: "Dr. David Martinez",
       zoomLink: "https://zoom.us/example3",
     },
@@ -38,7 +38,7 @@ exports.seed = async function (knex) {
       time: "10:00 AM EST",
       title: "Innovative Assessment Techniques",
       description:
-        "Discover practical strategies for managing your classroom environment to enhance student learning and engagement.",
+        "Explore groundbreaking assessment techniques to enhance student learning and foster deeper understanding. Uncover creative approaches, tools, and methodologies to effectively measure student progress and drive academic excellence.",
       guestSpeaker: "Dr. Emily White",
       zoomLink: "https://zoom.us/example4",
     },
@@ -48,7 +48,7 @@ exports.seed = async function (knex) {
       time: "1:00 PM EST",
       title: "Promoting Critical Thinking in the Classroom",
       description:
-        "Discover practical strategies for managing your classroom environment to enhance student learning and engagement.",
+        "Foster critical thinking in your classroom with practical strategies.  Elevate student engagement and empower independent thought.",
       guestSpeaker: "Dr. Mark Wilson",
       zoomLink: "https://zoom.us/example5",
     },
@@ -58,7 +58,7 @@ exports.seed = async function (knex) {
       time: "8:00 PM EST",
       title: "Effective Use of Technology in Education",
       description:
-        "Discover practical strategies for managing your classroom environment to enhance student learning and engagement.",
+        "Learn how to seamlessly integrate tech tools into your teaching practices to enhance student engagement, collaboration, and learning outcomes. Gain practical insights and strategies to harness technology's power for more effective and dynamic educational experiences.",
       guestSpeaker: "Prof. Jennifer Brown",
       zoomLink: "https://zoom.us/example6",
     },
@@ -68,7 +68,7 @@ exports.seed = async function (knex) {
       time: "10:45 AM EST",
       title: "Differentiated Instruction Strategies",
       description:
-        "Discover practical strategies for managing your classroom environment to enhance student learning and engagement.",
+        "Uncover methods to cater to diverse learning needs, empower every student, and foster a supportive environment where individual growth flourishes.",
       guestSpeaker: "Dr. Christopher Clark",
       zoomLink: "https://zoom.us/example7",
     },
@@ -78,7 +78,7 @@ exports.seed = async function (knex) {
       time: "10:00 AM EST",
       title: "Culturally Responsive Teaching Practices",
       description:
-        "Discover practical strategies for managing your classroom environment to enhance student learning and engagement.",
+        "Explore strategies to honor diverse backgrounds, foster inclusivity, and create enriching learning environments where every student feels valued and empowered to succeed.",
       guestSpeaker: "Prof. Maria Rodriguez",
       zoomLink: "https://zoom.us/example8",
     },
@@ -88,7 +88,7 @@ exports.seed = async function (knex) {
       time: "2:15 PM EST",
       title: "Fostering Creativity in the Classroom",
       description:
-        "Discover practical strategies for managing your classroom environment to enhance student learning and engagement.",
+        "Unleash innovative teaching techniques to nurture imagination, inspire curiosity, and cultivate a culture of creativity among students, empowering them to thrive in an ever-changing world.",
       guestSpeaker: "Dr. James Lee",
       zoomLink: "https://zoom.us/example9",
     },
